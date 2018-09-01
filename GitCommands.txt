@@ -32,14 +32,25 @@ git add Lesson* //moves all files that start with Lesson to the staging area
 
 git add --all //adds changes from all tracked and untracked files to the staging area
 
+git merge NewBranchName //first move the head to the branch you want to merge INTO using checkout <branchname>; then use git merge, specify the branch to merge into current branch (usu master)
+
+git push origin master//pushes the local repository's master branch to the remote repository 
+
 git log --graph //shows a graph of the branches and commits with comments, author and time stamps
 
+
 mv //move; ex: $ mv ../Codecademy
+
+mv FileName.txt -t The/New/FolderPath  //move the file called FileName.txt to the target directory specified after -t (use ../The/New/FolderPath if you need to go up a directory level first)
+
 cd //change directory
 ls //list (show a list of files in this directory)
 ls -a //shows a list of all files in this directory including hidden ones
 
 cat FileName.txt //shows the contents of FileName.txt in the terminal
+
+
+
 
 
 
