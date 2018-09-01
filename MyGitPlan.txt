@@ -1,0 +1,6 @@
+1 Edit this text file
+2 Save the file
+3 Git status to see the state of the git repository
+4 Add this file to the staging area
+5 Commit
+6 Push changes to GitHub
