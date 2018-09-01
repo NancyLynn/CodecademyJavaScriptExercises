@@ -1,0 +1,46 @@
+git config --global user.email ""
+git config --global user.name ""
+
+git commit //commits all changes on files that are staged
+
+git commit -m //commits changed files and lets you type a message in the terminal window
+
+git log
+
+git status //shows where the head is, plus status of files 
+example: "On branch master" "nothing to commit, working tree clean"; will show if there are untracked files, modified files (files with changes not staged for commit)
+
+up arrow cycles through previous commands
+
+git help push //opens help for keyword push
+
+touch file.txt //makes a new file named file.txt
+
+vim file.txt //opens file.txt in the vim text editor 
+
+git push -u origin master //push all staged files to orgin (on GitHub's copy of the repository) from the master branch (on local machine); don't need the -u after the first time
+
+git checkout -b BranchName //makes a new branch called BranchName and moves the head there
+
+git checkout master //moves the head to the "master" branch and shows its status
+
+git branch //lists the branches, puts * next to the branch where the head is currently
+
+git add FileName.txt //moves FileName.txt to the staging area
+
+git add Lesson* //moves all files that start with Lesson to the staging area
+
+git add --all //adds changes from all tracked and untracked files to the staging area
+
+git log --graph //shows a graph of the branches and commits with comments, author and time stamps
+
+mv //move; ex: $ mv ../Codecademy
+cd //change directory
+ls //list (show a list of files in this directory)
+ls -a //shows a list of all files in this directory including hidden ones
+
+cat FileName.txt //shows the contents of FileName.txt in the terminal
+
+
+
+

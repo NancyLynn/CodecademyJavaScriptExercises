@@ -1,6 +1,23 @@
+DAY 1
 1 Edit this text file
 2 Save the file
 3 Git status to see the state of the git repository
 4 Add this file to the staging area
 5 Commit
 6 Push changes to GitHub
+
+
+DAY 2
+1 Make a new branch called Lesson2-9
+2 Use the terminal to move all remaining lesson files to the repository folder
+3 Add the .js files for lessons 02-09 to the staging area 
+4 Edit Lesson06-1_Loops.js using Atom; save changes and then add the file back to the staging area (it had untracked changes) 
+5 Commit
+6 Make a new branch called Lesson10-12
+7 Save changes to open files
+8 Add all remaining lesson files plus the .txt file with my notes on git commands to the staging area 
+9 Commit
+
+10 Merge the Lesson10-12 branch into the Lesson2-9 branch
+11 Merge the Lesson 2-9 branch into the master branch
+12 Push all staged files to GitHub
